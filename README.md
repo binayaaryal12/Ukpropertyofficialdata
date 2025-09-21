@@ -109,3 +109,17 @@ A new column named Transer Date Year was added to the table, which extracts just
 Finally, the columns were reordered into a logical and user-friendly sequence, with key identifiers like price, transfer_date, and postcode placed at the beginning. This provides a clean, organized, and ready-to-use dataset for building visualizations and reports in Power BI.
 
 
+###  Data Analysis (DAX)
+Several DAX measures were created to perform key calculations and provide insights:
+
+- Total Transactions- <br/>
+A simple COUNTROWS measure to show the total number of property sales.
+
+- Count of New Builds- <br/>
+A CALCULATE measure that counts new builds while respecting filters on other columns, but not on the is_new_build column itself.
+
+- Most Frequent Postcode-  <br/>
+A complex measure using SUMMARIZE, TOPN, and MAXX to find the postcode with the highest number of transactions, which dynamically updates with user-applied filters.
+
+
+
