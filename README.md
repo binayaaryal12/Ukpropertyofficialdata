@@ -79,10 +79,33 @@ df = df[(df['price'] >= lower_bound) & (df['price'] <= upper_bound)]
 - **df['price'].quantile(0.01) finds the value below which 1% of the data falls (the 1st percentile).**
 - **df['price'].quantile(0.99) finds the value below which 99% of the data falls (the 99th percentile).**
 
+## Loading data in Power BI and using Power Query to transform data. 
 
+### Data Transformation in Power Query
+The data used in this project was transformed using Power Query within Power BI. The following steps were executed to clean and prepare the raw data for analysis.
 
+- Initial Data Structuring - <br/>
+The process began by promoting the first row of the raw data to serve as the column headers, giving clear names to each data field. Following this, the data types of key columns were set correctly: price was designated as Currency, transfer_date as Date, and postcode as Text. This ensures that subsequent operations and calculations are performed accurately.
 
+- Data Cleaning and Standardization - <br/>
+To ensure data quality, several cleaning steps were performed:
 
+- Filtering - <br/>
+Any rows with a missing or blank postcode were removed from the dataset to ensure every record is complete.
 
+- Text Formatting - <br/>
+Key text columns, including paon, street, locality, town_city, district, and county, were converted to uppercase and had all leading and trailing whitespace removed. This standardization is crucial for consistent filtering and grouping of geographical data.
+
+- Data Consolidation and Enrichment - <br/>
+To create more useful fields, some columns were combined and new ones were generated:
+
+- Combining Columns - <br/>
+The paon (Primary Addressable Object Name) and street columns were merged to create a new, consolidated Street column, providing a more complete street address in a single field.
+
+- Date Extraction - <br/>
+A new column named Transer Date Year was added to the table, which extracts just the year from the transfer_date field. This enables powerful analysis by year without having to use the full date.
+
+- Final Output - <br/>
+Finally, the columns were reordered into a logical and user-friendly sequence, with key identifiers like price, transfer_date, and postcode placed at the beginning. This provides a clean, organized, and ready-to-use dataset for building visualizations and reports in Power BI.
 
 
