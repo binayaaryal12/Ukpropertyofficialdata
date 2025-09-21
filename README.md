@@ -3,6 +3,15 @@ This project just focuses on using Python for data cleaning and handling, Power 
 ## Data from Kaggle 
 https://www.kaggle.com/datasets/lorentzyeung/price-paid-data-202304
 ## KPI Questions
+- What is the total number of property transactions? 
+- What is the overall average property price? 
+- What is the average price of a property by its type? 
+- What is the most frequently occurring postcode in the dataset? 
+- What is the average price of properties in each county? 
+- What is the distribution of property types sold (e.g., Detached, Semi-Detached)? 
+- How does the average property price change over time? 
+- What is the breakdown of sales by property duration (Freehold vs. Leasehold)? 
+- How do the average prices of new builds compare to existing properties? 
 ________________________________________
 # Data Cleaning Steps
 ## Python Data Cleaning
