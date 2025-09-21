@@ -2,6 +2,7 @@
 This project just focuses on using Python for data cleaning and handling, Power Query and DAX to for more data transformation and Power BI to create the dashboard.
 ## Data from Kaggle 
 https://www.kaggle.com/datasets/lorentzyeung/price-paid-data-202304
+- file too big to attach for final file after cleaning. 
 ## KPI Questions
 - What is the total number of property transactions? 
 - What is the overall average property price? 
@@ -129,6 +130,9 @@ A CALCULATE measure that counts new builds while respecting filters on other col
 
 - Most Frequent Postcode-  <br/>
 A complex measure using SUMMARIZE, TOPN, and MAXX to find the postcode with the highest number of transactions, which dynamically updates with user-applied filters.
+
+________________________________________
+- Dashboard Interaction <a href= "https://github.com/binayaaryal12/netflix-eda/blob/main/netflix.pdf](https://github.com/binayaaryal12/Ukpropertyofficialdata/blob/main/ukpricing.pdf"> View Dashboard</a> 
 
 
 
