@@ -132,7 +132,7 @@ A CALCULATE measure that counts new builds while respecting filters on other col
 A complex measure using SUMMARIZE, TOPN, and MAXX to find the postcode with the highest number of transactions, which dynamically updates with user-applied filters.
 
 ________________________________________
-- Dashboard Interaction <a href= "https://github.com/binayaaryal12/netflix-eda/blob/main/netflix.pdf](https://github.com/binayaaryal12/Ukpropertyofficialdata/blob/main/ukpricing.pdf"> View Dashboard</a> 
+- Dashboard Interaction <a href= "https://github.com/binayaaryal12/Ukpropertyofficialdata/blob/main/ukpricing.pdf"> View Dashboard</a> 
 
 
 
